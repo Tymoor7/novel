@@ -98,5 +98,5 @@
 
 [chara_hide  name="Ahmad"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_hide  name="Misaki"  time="1000"  wait="true"  pos_mode="true"  ]
-[jump  storage="title_screen.ks"  target="*title"  cond=""  ]
+[jump  storage="title_screen_silent.ks"  target="*title"  cond=""  ]
 [s  ]
