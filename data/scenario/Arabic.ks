@@ -13,7 +13,7 @@
 [wait  time="2000"  ]
 [tb_show_message_window  ]
 [font  size="60"  color="0xffffff"  bold="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa.ogg"  ]
+[playse  volume="100"  time="1000"  buf="5"  storage="konnichiwa.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
 مرحباً [p]
@@ -21,7 +21,7 @@
 
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa2.ogg"  ]
+[playse  volume="100"  time="1000"  buf="5"  storage="konnichiwa2.ogg"  ]
 [tb_start_text mode=1 ]
 #Misaki
 مرحباً[p]
