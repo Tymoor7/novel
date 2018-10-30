@@ -4,6 +4,7 @@
 *Romaji
 
 [stopse  time="1000"  buf="0"  ]
+[playbgm  volume="30"  time="1000"  loop="true"  storage="music.ogg"  fadein="false"  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="0"  ]
 [bg  storage="room.jpg"  time="1000"  ]

@@ -2,7 +2,6 @@
 
 *title
 
-[playbgm  volume="30"  time="1000"  loop="true"  storage="music.ogg"  fadein="false"  ]
 [hidemenubutton]
 
 [tb_clear_images]
