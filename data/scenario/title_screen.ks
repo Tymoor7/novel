@@ -23,8 +23,8 @@
 
 [_tb_end_text]
 
+[wait  time="1500"  ]
 [cm  ]
-[wait  time="1000"  ]
 [tb_hide_message_window  ]
 [glink  color="white"  text="هيراجانا"  x="200"  y="100"  size="50"  target="*Hiragana"  width=""  height=""  _clickable_img=""  storage="Hiragana.ks"  ]
 [glink  color="white"  text="روماجي"  x="200"  y="300"  size="50"  target="*Romaji"  width=""  height=""  _clickable_img=""  storage="Romaji.ks"  ]

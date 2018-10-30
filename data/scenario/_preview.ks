@@ -18,15 +18,15 @@
 [font  size="45"  color="0xffffff"  ]
 [tb_start_text mode=3 ]
 #Rakuda
-الدرس الاول: اللقاء الاول[r]
+الدرس الاول: اللقاء الاول[autostart][r]
 المكان هو مكتبة الجامعة الأردنية[r]
 ينتبه أحمد أحد طلاب الجامعة لوجود شخص ياباني في المكتبة.[r]
 ولكون أحمد من طلاب اللغة اليابانية يتوجه  ليتحدث مع هذا الشخص[r]
 
 [_tb_end_text]
 
-[cm  ]
 [wait  time="1000"  ]
+[cm  ]
 [tb_hide_message_window  ]
 [glink  color="white"  text="هيراجانا"  x="200"  y="100"  size="50"  target="*Hiragana"  width=""  height=""  _clickable_img=""  storage="Hiragana.ks"  ]
 [glink  color="white"  text="روماجي"  x="200"  y="300"  size="50"  target="*Romaji"  width=""  height=""  _clickable_img=""  storage="Romaji.ks"  ]
