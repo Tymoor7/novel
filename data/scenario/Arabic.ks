@@ -16,7 +16,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
-مرحباً [autostart][p]
+مرحباً [p]
 
 
 [_tb_end_text]

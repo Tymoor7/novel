@@ -2,104 +2,33 @@
 
 [mask time=10]
 [mask_off time=10]
-[cm  ]
-*Romaji
+*title
 
-[stopse  time="1000"  buf="0"  ]
-[playbgm  volume="30"  time="1000"  loop="true"  storage="music.ogg"  fadein="false"  ]
+[hidemenubutton]
+
+[tb_clear_images]
+
+[tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[tb_image_hide  time="0"  ]
-[bg  storage="room.jpg"  time="1000"  ]
-[chara_show  name="Ahmad"  time="2000"  wait="true"  storage="chara/1/Ahmad.png"  width="600"  height="790"  left="692"  top="-67"  reflect="false"  ]
-[chara_show  name="Misaki"  time="2000"  wait="true"  storage="chara/2/Misaki.png"  width="453"  height="767"  left="81"  top="-2"  reflect="false"  ]
-[wait  time="2000"  ]
+[bg  storage="title.jpg"  ]
+[tb_image_show  time="1000"  storage="default/rakuda3sw.png"  width="500"  height="675"  x="765"  y="21"  _clickable_img=""  name="img_6"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="lesson1intro.ogg"  ]
 [tb_show_message_window  ]
-[delay  speed="65"  ]
-[font  size="40"  color="0xffffff"  bold="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Konnichiwa.[autostart][p]
-
-
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa2.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Konnichiwa.[p]
+[delay  speed="120"  ]
+[font  size="45"  color="0xffffff"  ]
+[tb_start_text mode=3 ]
+#Rakuda
+الدرس الاول: اللقاء الاول[r]
+المكان هو مكتبة الجامعة الأردنية[r]
+ينتبه أحمد أحد طلاب الجامعة لوجود شخص ياباني في المكتبة.[r]
+ولكون أحمد من طلاب اللغة اليابانية يتوجه  ليتحدث مع هذا الشخص[r]
 
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="v3.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Watashi wa yorudan daigaku no gakusei desu.[p]
-
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v4.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Nihongo no sensei desu ka.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v5.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Iie, chigaimasu.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v6.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Watashi mo gakusei desu. Ryuugakusei desu.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v7.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Sou desu ka.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v8.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Watashi wa Ahamado desu.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v9.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Senmon wa engineering desu.[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v10.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Watashi wa Yamada Misaki desu[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v11.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Senmon wa Arabiago desu.[p]
-
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v12.ogg"  ]
-[tb_start_text mode=1 ]
-#Misaki
-Douzo yorosiku[p]
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="v13.ogg"  ]
-[tb_start_text mode=1 ]
-#Ahmad
-Kochira koso Yoroshiku.[p]
-[_tb_end_text]
-
-[chara_hide  name="Ahmad"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_hide  name="Misaki"  time="1000"  wait="true"  pos_mode="true"  ]
-[jump  storage="title_screen_silent.ks"  target="*title"  ]
+[cm  ]
+[wait  time="1000"  ]
+[tb_hide_message_window  ]
+[glink  color="white"  text="هيراجانا"  x="200"  y="100"  size="50"  target="*Hiragana"  width=""  height=""  _clickable_img=""  storage="Hiragana.ks"  ]
+[glink  color="white"  text="روماجي"  x="200"  y="300"  size="50"  target="*Romaji"  width=""  height=""  _clickable_img=""  storage="Romaji.ks"  ]
+[glink  color="white"  text="المعنى&nbsp;باللغة&nbsp;العربية"  x="200"  y="500"  size="50"  target="*Arabic"  width=""  height=""  _clickable_img=""  storage="Arabic.ks"  ]
 [s  ]
