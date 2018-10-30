@@ -10,7 +10,7 @@
 [tb_hide_message_window  ]
 [bg  storage="title.jpg"  ]
 [tb_image_show  time="1000"  storage="default/rakuda3sw.png"  width="500"  height="675"  x="765"  y="21"  _clickable_img=""  name="img_6"  ]
-[playse  volume="100"  time="1000"  buf="5"  storage="lesson1intro.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="lesson1intro.ogg"  ]
 [tb_show_message_window  ]
 [delay  speed="120"  ]
 [font  size="45"  color="0xffffff"  ]
