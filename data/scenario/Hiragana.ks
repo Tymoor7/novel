@@ -8,11 +8,12 @@
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
 [bg  storage="room.jpg"  time="1000"  ]
-[chara_show  name="Ahmad"  time="2000"  wait="true"  storage="chara/1/Ahmad.png"  width="600"  height="790"  left="692"  top="-67"  reflect="false"  ]
-[chara_show  name="Misaki"  time="2000"  wait="true"  storage="chara/2/Misaki.png"  width="453"  height="767"  left="81"  top="-2"  reflect="false"  ]
+[chara_show  name="Ahmad"  time="2000"  wait="true"  storage="chara/1/Ahmad.png"  width="560"  height="747"  left="701"  top="-23"  reflect="false"  ]
+[chara_show  name="Misaki"  time="2000"  wait="true"  storage="chara/2/Misaki0.png"  width="560"  height="747"  left="46"  top="-9"  reflect="false"  ]
 [wait  time="2000"  ]
 [tb_show_message_window  ]
 [font  size="40"  color="0xffffff"  bold="true"  ]
+[chara_mod  name="Ahmad"  time="600"  cross="true"  storage="chara/1/Ahmad_happy_0.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
@@ -21,6 +22,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="Misaki"  time="600"  cross="true"  storage="chara/2/Misaki.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="konnichiwa2.ogg"  ]
 [tb_start_text mode=1 ]
 #Misaki
@@ -28,6 +30,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="Ahmad"  time="600"  cross="true"  storage="chara/1/Ahmad_happy_1.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v3.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
@@ -35,6 +38,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="Ahmad"  time="600"  cross="true"  storage="chara/1/Ahmad_ask.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v4.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
@@ -42,6 +46,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="Misaki"  time="600"  cross="true"  storage="chara/2/Misaki_no.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v5.ogg"  ]
 [tb_start_text mode=1 ]
 #Misaki
@@ -49,12 +54,14 @@
 
 [_tb_end_text]
 
+[chara_mod  name="Misaki"  time="600"  cross="true"  storage="chara/2/Misaki.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v6.ogg"  ]
 [tb_start_text mode=1 ]
 #Misaki
 わたしも　[ruby text=がく]学[ruby text=せい]生です。りゅう [ruby text=がく]学[ruby text=せい]生です。[p]
 [_tb_end_text]
 
+[chara_mod  name="Ahmad"  time="600"  cross="true"  storage="chara/1/Ahmad_happy_0.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v7.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
@@ -74,6 +81,7 @@
 せんもんは　engineeringです。[p]
 [_tb_end_text]
 
+[chara_mod  name="Misaki"  time="600"  cross="true"  storage="chara/2/Misaki.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v10.ogg"  ]
 [tb_start_text mode=1 ]
 #Misaki
@@ -90,12 +98,14 @@
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="v12.ogg"  ]
+[chara_mod  name="Misaki"  time="600"  cross="true"  storage="chara/2/Misaki_happy.png"  ]
 [tb_start_text mode=1 ]
 #Misaki
 どうぞ よろしく。[p]
 
 [_tb_end_text]
 
+[chara_mod  name="Ahmad"  time="600"  cross="true"  storage="chara/1/Ahmad_happy_1.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="v13.ogg"  ]
 [tb_start_text mode=1 ]
 #Ahmad
